@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity2 extends AppCompatActivity {
 
     EditText etNombre, etEmail;
     Button btnGuardar, btnVerUsuarios;
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btnVerUsuarios.setOnClickListener(v -> {
-           startActivity(new Intent(MainActivity.this, ListaUsuarios.class));
+            startActivity(new Intent(MainActivity2.this, ListaUsuarios.class));
         });
 
     }
@@ -53,4 +53,3 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
-
